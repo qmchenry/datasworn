@@ -1,9 +1,9 @@
 {
-  "Title": "Ironsworn Threat Oracles",
+  "Name": "Threat Oracles",
   "Oracles": [
     {
       "Name": "Threat Category",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 10,
           "Description": "Burgeoning Conflict"
@@ -48,7 +48,7 @@
     },
     {
       "Name": "Burgeoning Conflict",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 10,
           "Description": "Allow warmongers to gain influence"
@@ -93,7 +93,7 @@
     },
     {
       "Name": "Cursed Site",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 10,
           "Description": "Unleash a creature or being"
@@ -138,7 +138,7 @@
     },
     {
       "Name": "Environmental Calamity",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 10,
           "Description": "Devastate a place"
@@ -183,7 +183,7 @@
     },
     {
       "Name": "Malignant Plague",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 10,
           "Description": "Manifest new symptoms or effects"
@@ -228,7 +228,7 @@
     },
     {
       "Name": "Rampaging Creature",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 10,
           "Description": "Reveal a new aspect of its nature or abilities"
@@ -273,7 +273,7 @@
     },
     {
       "Name": "Ravaging Horde",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 10,
           "Description": "Overrun defenses"
@@ -318,7 +318,7 @@
     },
     {
       "Name": "Scheming Leader",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 10,
           "Description": "Defeat an enemy"
@@ -363,7 +363,7 @@
     },
     {
       "Name": "Power-Hungry Mystic",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 10,
           "Description": "Gain hidden knowledge"
@@ -408,7 +408,7 @@
     },
     {
       "Name": "Zealous Cult",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 10,
           "Description": "Overtake a faction or community"

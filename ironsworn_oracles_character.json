@@ -1,9 +1,9 @@
 {
-  "Title": "Ironsworn Character Oracles",
+  "Name": "Character Oracles",
   "Oracles": [
     {
       "Name": "Role",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 2,
           "Description": "Criminal"
@@ -128,7 +128,7 @@
     },
     {
       "Name": "Goal",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 3,
           "Description": "Obtain an object"
@@ -265,7 +265,7 @@
     },
     {
       "Name": "Descriptor",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 1,
           "Description": "Stoic"
@@ -670,7 +670,7 @@
     },
     {
       "Name": "Disposition",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 6,
           "Description": "Helpful"
@@ -723,7 +723,7 @@
     },
     {
       "Name": "Activity",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 2,
           "Description": "Guarding"

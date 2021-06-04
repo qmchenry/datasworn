@@ -1,9 +1,9 @@
 {
-  "Title": "Ironsworn Prompt Oracles",
+  "Name": "Prompt Oracles",
   "Oracles": [
     {
       "Name": "Action",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 1,
           "Description": "Scheme"
@@ -408,7 +408,7 @@
     },
     {
       "Name": "Theme",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 1,
           "Description": "Risk"
@@ -816,7 +816,7 @@
       "Oracles": [
         {
           "Name": "Aspect",
-          "Oracle Table": [
+          "Table": [
             {
               "Chance": 2,
               "Description": "Blocked"
@@ -1021,7 +1021,7 @@
         },
         {
           "Name": "Focus",
-          "Oracle Table": [
+          "Table": [
             {
               "Chance": 2,
               "Description": "Attack"
@@ -1231,7 +1231,7 @@
       "Oracles": [
         {
           "Name": "Event",
-          "Oracle Table": [
+          "Table": [
             {
               "Chance": 4,
               "Description": "Block"
@@ -1336,7 +1336,7 @@
         },
         {
           "Name": "Component",
-          "Oracle Table": [
+          "Table": [
             {
               "Chance": 4,
               "Description": "Pit"
@@ -1446,7 +1446,7 @@
       "Oracles": [
         {
           "Name": "Method",
-          "Oracle Table": [
+          "Table": [
             {
               "Chance": 2,
               "Description": "Defy"
@@ -1651,7 +1651,7 @@
         },
         {
           "Name": "Target",
-          "Oracle Table": [
+          "Table": [
             {
               "Chance": 2,
               "Description": "Control"

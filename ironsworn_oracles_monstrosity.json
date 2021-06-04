@@ -1,9 +1,9 @@
 {
-  "Title": "Ironsworn Monstrosity Oracles",
+  "Name": "Monstrosity Oracles",
   "Oracles": [
     {
       "Name": "Size",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 5,
           "Description": "Tiny (rodent-sized)"
@@ -32,7 +32,7 @@
     },
     {
       "Name": "Primary Form",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 15,
           "Description": "Beast / mammal"
@@ -109,7 +109,7 @@
     },
     {
       "Name": "Characteristics",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 5,
           "Description": "Extra limbs"
@@ -226,7 +226,7 @@
     },
     {
       "Name": "Abilities",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 4,
           "Description": "Keen senses"

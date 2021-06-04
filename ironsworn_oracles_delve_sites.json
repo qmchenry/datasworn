@@ -1,12 +1,12 @@
 {
-  "Title": "Ironsworn Site Oracles",
+  "Name": "Site Oracles",
   "Categories": [
     {
       "Name": "Site Name",
       "Oracles": [
         {
           "Name": "Format",
-          "Oracle Table": [
+          "Table": [
             {
               "Chance": 25,
               "Description": "[Description] {Place}"
@@ -39,7 +39,7 @@
         },
         {
           "Name": "Description",
-          "Oracle Table": [
+          "Table": [
             {
               "Chance": 2,
               "Description": "Deep"
@@ -244,7 +244,7 @@
         },
         {
           "Name": "Detail",
-          "Oracle Table": [
+          "Table": [
             {
               "Chance": 2,
               "Description": "Blight"
@@ -449,7 +449,7 @@
         },
         {
           "Name": "Namesake",
-          "Oracle Table": [
+          "Table": [
             {
               "Chance": 2,
               "Description": "Breckon"
@@ -657,7 +657,7 @@
           "Oracles": [
             {
               "Name": "Barrow",
-              "Oracle Table": [
+              "Table": [
                 {
                   "Chance": 16,
                   "Description": "Sepulcher"
@@ -686,7 +686,7 @@
             },
             {
               "Name": "Cavern",
-              "Oracle Table": [
+              "Table": [
                 {
                   "Chance": 10,
                   "Description": "Abyss"
@@ -731,7 +731,7 @@
             },
             {
               "Name": "Frozen Cavern",
-              "Oracle Table": [
+              "Table": [
                 {
                   "Chance": 10,
                   "Description": "Abyss"
@@ -776,7 +776,7 @@
             },
             {
               "Name": "Icereach",
-              "Oracle Table": [
+              "Table": [
                 {
                   "Chance": 16,
                   "Description": "Icemark"
@@ -805,7 +805,7 @@
             },
             {
               "Name": "Mine",
-              "Oracle Table": [
+              "Table": [
                 {
                   "Chance": 16,
                   "Description": "Lode"
@@ -834,7 +834,7 @@
             },
             {
               "Name": "Pass",
-              "Oracle Table": [
+              "Table": [
                 {
                   "Chance": 10,
                   "Description": "Cliffs"
@@ -879,7 +879,7 @@
             },
             {
               "Name": "Ruin",
-              "Oracle Table": [
+              "Table": [
                 {
                   "Chance": 10,
                   "Description": "Citadel"
@@ -924,7 +924,7 @@
             },
             {
               "Name": "Sea Cave",
-              "Oracle Table": [
+              "Table": [
                 {
                   "Chance": 16,
                   "Description": "Caves"
@@ -953,7 +953,7 @@
             },
             {
               "Name": "Shadowfen",
-              "Oracle Table": [
+              "Table": [
                 {
                   "Chance": 10,
                   "Description": "Bog"
@@ -998,7 +998,7 @@
             },
             {
               "Name": "Stronghold",
-              "Oracle Table": [
+              "Table": [
                 {
                   "Chance": 10,
                   "Description": "Bastion"
@@ -1043,7 +1043,7 @@
             },
             {
               "Name": "Tanglewood",
-              "Oracle Table": [
+              "Table": [
                 {
                   "Chance": 11,
                   "Description": "Weald"
@@ -1080,7 +1080,7 @@
             },
             {
               "Name": "Underkeep",
-              "Oracle Table": [
+              "Table": [
                 {
                   "Chance": 10,
                   "Description": "Catacomb"
@@ -1132,7 +1132,7 @@
       "Oracles": [
         {
           "Name": "Theme",
-          "Oracle Table": [
+          "Table": [
             {
               "Chance": 11,
               "Description": "Ancient"
@@ -1169,7 +1169,7 @@
         },
         {
           "Name": "Domain",
-          "Oracle Table": [
+          "Table": [
             {
               "Chance": 6,
               "Description": "Barrow"

@@ -1,34 +1,39 @@
 {
-  "Title": "Ironsworn Turning Point Oracles",
+  "Name": "Turning Point Oracles",
   "Oracles": [
     {
       "Name": "Challenge Rank",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 20,
-          "Description": "Troublesome"
+          "Description": "Troublesome",
+          "Value": 1
         },
         {
           "Chance": 55,
-          "Description": "Dangerous"
+          "Description": "Dangerous",
+          "Value": 2
         },
         {
           "Chance": 80,
-          "Description": "Formidable"
+          "Description": "Formidable",
+          "Value": 3
         },
         {
           "Chance": 93,
-          "Description": "Extreme"
+          "Description": "Extreme",
+          "Value": 4
         },
         {
           "Chance": 100,
-          "Description": "Epic"
+          "Description": "Epic",
+          "Value": 5
         }
       ]
     },
     {
       "Name": "Combat Action",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 3,
           "Description": "Compel a surrender."
@@ -101,7 +106,7 @@
     },
     {
       "Name": "Major Plot Twist",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 2,
           "Description": "It was all a diversion."
@@ -186,7 +191,7 @@
     },
     {
       "Name": "Mystic Backlash",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 5,
           "Description": "The ritual has the opposite affect."

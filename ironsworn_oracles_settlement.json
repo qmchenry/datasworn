@@ -1,14 +1,14 @@
 {
-  "Title": "Ironsworn Settlement Oracles",
+  "Name": "Settlement Oracles",
   "Oracles": [
     {
       "Name": "Settlement Name",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 15,
           "Description": "A feature of the landscape",
           "Prompt": "Envision what it is. What makes it unusual or distinctive?",
-          "Oracle Table": [
+          "Table": [
             {
               "Chance": 10,
               "Description": "Highmount"
@@ -55,7 +55,7 @@
           "Chance": 30,
           "Description": "A manmade edifice",
           "Prompt": "What is it? Why is it important to this settlement’s history?",
-          "Oracle Table": [
+          "Table": [
             {
               "Chance": 10,
               "Description": "Whitebridge"
@@ -102,7 +102,7 @@
           "Chance": 45,
           "Description": "A creature",
           "Prompt": "Why have the people of this settlement chosen this creature as their totem? How is it represented in art or rituals?",
-          "Oracle Table": [
+          "Table": [
             {
               "Chance": 10,
               "Description": "Ravencliff"
@@ -149,7 +149,7 @@
           "Chance": 60,
           "Description": "A historical event",
           "Prompt": "What happened here? What place or practice commemorates this event?",
-          "Oracle Table": [
+          "Table": [
             {
               "Chance": 10,
               "Description": "Swordbreak"
@@ -196,7 +196,7 @@
           "Chance": 75,
           "Description": "A word in an Old World language",
           "Prompt": "What culture is represented by this word? What does it translate to?",
-          "Oracle Table": [
+          "Table": [
             {
               "Chance": 10,
               "Description": "Abon"
@@ -243,7 +243,7 @@
           "Chance": 90,
           "Description": "A season or environmental aspect",
           "Prompt": "What influence does the weather have on this settlement?",
-          "Oracle Table": [
+          "Table": [
             {
               "Chance": 10,
               "Description": "Winterhome"
@@ -289,7 +289,7 @@
         {
           "Chance": 100,
           "Description": "Something Else....",
-          "Oracle Table": [
+          "Table": [
             {
               "Chance": 10,
               "Description": "A trade good (Ironhome)"
@@ -339,7 +339,7 @@
       "Oracles": [
         {
           "Name": "Prefix",
-          "Oracle Table": [
+          "Table": [
             {
               "Chance": 4,
               "Description": "Bleak-"
@@ -444,7 +444,7 @@
         },
         {
           "Name": "Suffix",
-          "Oracle Table": [
+          "Table": [
             {
               "Chance": 4,
               "Description": "-moor"
@@ -551,7 +551,7 @@
     },
     {
       "Name": "Settlement Trouble",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 2,
           "Description": "Outsiders rejected"

@@ -1,10 +1,10 @@
 {
-  "Title": "Ironsworn Name Oracles",
+  "Name": "Name Oracles",
   "Oracles": [
     {
       "Name": "Ironlander Names",
       "d": "200",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 1,
           "Description": "Solana"
@@ -809,7 +809,7 @@
     },
     {
       "Name": "Elf Names",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 2,
           "Description": "Arsula"
@@ -1014,7 +1014,7 @@
     },
     {
       "Name": "Giant Names",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 4,
           "Description": "Chony"
@@ -1119,7 +1119,7 @@
     },
     {
       "Name": "Varou Names",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 4,
           "Description": "Vata"
@@ -1224,7 +1224,7 @@
     },
     {
       "Name": "Troll Names",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 4,
           "Description": "Rattle"

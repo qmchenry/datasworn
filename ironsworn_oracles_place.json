@@ -1,9 +1,9 @@
 {
-  "Title": "Ironsworn Place Oracles",
+  "Name": "Place Oracles",
   "Oracles": [
     {
       "Name": "Region",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 12,
           "Description": "Barrier Islands"
@@ -48,7 +48,7 @@
     },
     {
       "Name": "Location",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 1,
           "Description": "Hideout"
@@ -257,7 +257,7 @@
     },
     {
       "Name": "Coastal Waters Location",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 1,
           "Description": "Fleet"
@@ -330,7 +330,7 @@
     },
     {
       "Name": "Location Descriptors",
-      "Oracle Table": [
+      "Table": [
         {
           "Chance": 2,
           "Description": "High"
