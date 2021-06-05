@@ -2665,16 +2665,14 @@ Turning Point:
         - [
             45,
             48,
-            You affect or damage your surroundings,
-            causing a disturbance or potential harm.,
+            "You affect or damage your surroundings, causing a disturbance or potential harm.",
           ]
         - [49, 52, You waste resources.]
         - [53, 56, You suffer the loss of a sense for several hours.]
         - [
             57,
             60,
-            You lose your connection to magic for a day or so,
-            and cannot perform rituals.,
+            "You lose your connection to magic for a day or so, and cannot perform rituals.",
           ]
         - [
             61,
