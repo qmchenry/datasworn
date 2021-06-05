@@ -1,0 +1,197 @@
+Move:
+  Name: Move
+  Oracles:
+    - Name: Endure Harm
+      Source:
+        Name: Ironsworn rulebook
+        Page: 91
+      Table:
+        - [1, 10, "The harm is mortal. [Face Death](#Face-Death)."]
+        - [
+            11,
+            20,
+            "You are dying. You need to [Heal](#Heal) within an hour or two, or [Face Death](#Face-Death).",
+          ]
+        - [
+            21,
+            35,
+            "You are unconscious and out of action. If left alone, you come back to your senses in an hour or two. If you are vulnerable to a foe not inclined to show mercy, [Face Death](#Face-Death).",
+          ]
+        - [
+            36,
+            50,
+            "You are reeling and fighting to stay conscious. If you engage in any vigorous activity (such as running or fighting) before taking a breather for a few minutes, roll on this table again (before resolving the other move).",
+          ]
+        - [51, 100, "You are battered but still standing."]
+    - Name: Endure Stress
+      Source:
+        Name: Ironsworn rulebook
+        Page: 95
+      Table:
+        - [1, 10, "You are overwhelmed. [Face Desolation](#Face-Desolation)."]
+        - [
+            11,
+            25,
+            "You give up. [Forsake Your Vow](#Forsake-Your-Vow) (if possible, one relevant to your current crisis).",
+          ]
+        - [
+            26,
+            50,
+            "You give in to a fear or compulsion, and act against your better instincts.",
+          ]
+        - [51, 100, "You persevere."]
+    - Name: Pay the Price
+      Source:
+        Name: Ironsworn rulebook
+        Page: 105
+      Table:
+        - [
+            1,
+            2,
+            "Roll again and apply that result but make it worse. If you roll this result yet again, think of something dreadful that changes the course of your quest (Ask the Oracle if unsure) and make it happen.",
+          ]
+        - [
+            3,
+            5,
+            "A person or community you trusted loses faith in you, or acts against you.",
+          ]
+        - [6, 9, "A person or community you care about is exposed to danger."]
+        - [10, 16, "You are separated from something or someone."]
+        - [17, 23, "Your action has an unintended effect."]
+        - [24, 32, "Something of value is lost or destroyed."]
+        - [33, 41, "The current situation worsens."]
+        - [42, 50, "A new danger or foe is revealed."]
+        - [51, 59, "It causes a delay or puts you at a disadvantage."]
+        - [60, 68, "It is harmful."]
+        - [69, 77, "It is stressful."]
+        - [78, 85, "A surprising development complicates your quest."]
+        - [86, 90, "It wastes resources."]
+        - [91, 94, "It forces you to act against your best intentions."]
+        - [
+            95,
+            98,
+            "A friend, companion, or ally is put in harm’s way (or you are, if alone).",
+          ]
+        - [
+            99,
+            100,
+            "Roll twice more on this table. Both results occur. If they are the same result, make it worse.", *Roll_twice_Rep_ok
+          ]
+    - Display name: "Delve the Depths: Edge"
+      Name: Delve the Depths
+      Source:
+        Name: "Ironsworn: Delve"
+        Page: 21
+      Table:
+        - [1, 45, &dtd-1 "Mark progress and [Reveal a Danger](#Reveal-a-Danger)."]
+        - [46, 65, &dtd-2 "Mark progress."]
+        - [66, 75, &dtd-3 "Choose one: Mark progress or [Find an Opportunity](#Find-an-Opportunity)."]
+        - [76, 80, &dtd-4 "Take both: Mark progress and [Find an Opportunity](#Find-an-Opportunity)."]
+        - [81, 100, &dtd-5 "Mark progress twice and [Reveal a Danger](#Reveal-a-Danger)."]
+    - Display name: "Delve the Depths: Shadow"
+      Name: Delve the Depths
+      Source:
+        Name: "Ironsworn: Delve"
+        Page: 21
+      Table:
+        - [1, 30, *dtd-1]
+        - [31, 65, *dtd-2]
+        - [66, 90, *dtd-3]
+        - [91, 99, *dtd-4]
+        - [100, 100, *dtd-5]
+    - Display name: "Delve the Depths: Wits"
+      Name: Delve the Depths
+      Source:
+        Name: "Ironsworn: Delve"
+        Page: 21
+      Table:
+        - [1, 40, *dtd-1]
+        - [41, 55, *dtd-2]
+        - [56, 80, *dtd-3]
+        - [81, 99, *dtd-4]
+        - [100, 100, *dtd-5]
+    - Name: Find an Opportunity
+      Source:
+        Name: "Ironsworn: Delve"
+        Page: 30
+      Table:
+        - [1, 25, "The terrain favors you, or you find a hidden path."]
+        - [
+            26,
+            45,
+            "An aspect of the history or nature of this place is revealed.",
+          ]
+        - [46, 57, "You locate a secure area."]
+        - [58, 68, "A clue offers insight or direction."]
+        - [69, 78, "You get the drop on a denizen."]
+        - [
+            79,
+            86,
+            "This area provides an opportunity to scavenge, forage, or hunt.",
+          ]
+        - [87, 90, "You locate an interesting or helpful object."]
+        - [91, 94, "You are alerted to a potential threat."]
+        - [95, 98, "You encounter a denizen who might support you."]
+        - [99, 100, "You encounter a denizen in need of help."]
+    - Name: Reveal a Danger
+      Source:
+        Name: "Ironsworn: Delve"
+        Page: 34
+      Table:
+        - [1, 30, "Check the theme card."]
+        - [31, 45, "Check the domain card."]
+        - [46, 57, &RaD-1 "You encounter a hostile denizen."]
+        - [58, 68, &RaD-2 "You face an environmental or architectural hazard."]
+        - [69, 76, &RaD-3 "A discovery undermines or complicates your quest."]
+        - [77, 79, &RaD-4 "You confront a harrowing situation or sensation."]
+        - [
+            80,
+            82,
+            &RaD-5 "You face the consequences of an earlier choice or approach.",
+          ]
+        - [83, 85, &RaD-6 "Your way is blocked or trapped."]
+        - [86, 88, &RaD-7 "A resource is diminished, broken, or lost."]
+        - [89, 91, &RaD-8 "You face a perplexing mystery or tough choice."]
+        - [92, 94, &RaD-9 "You lose your way or are delayed."]
+        - [
+            95,
+            100,
+            &RaD-10 ["Roll twice more on this table. Both results occur. If they are the same result, make it worse.",*Roll_twice_Rep_ok]
+          ]
+
+    - Name: Reveal a Danger
+      Display Name: Reveal a Danger (Alternate)
+      Source:
+        Name: "Ironsworn: Delve"
+        Page: 68
+      Table:
+        - [1, 22, *RaD-1]
+        - [23, 42, *RaD-2]
+        - [43, 58, *RaD-3]
+        - [59, 64, *RaD-4]
+        - [65, 70, *RaD-5]
+        - [71, 76, *RaD-6]
+        - [77, 82, *RaD-7]
+        - [83, 88, *RaD-8]
+        - [89, 94, *RaD-9]
+        - [95, 100, *RaD-10]
+    - Name: Advance a Threat
+      Source:
+        Name: "Ironsworn: Delve"
+        Page: 155
+      Table:
+        - [
+            1,
+            30,
+            "The threat readies its next step, or a new danger looms. If you are in a position to prevent this development, you may attempt to do so. If you succeed, [Reach a Milestone](#Reach-a-Milestone). Otherwise, mark menace.",
+          ]
+        - [
+            31,
+            70,
+            "The threat works subtly to advance toward its goal, or the danger escalates. Mark menace.",
+          ]
+        - [
+            71,
+            100,
+            "The threat makes a dramatic and immediate move, or a major event reveals new complications. Mark menace twice.",
+          ]

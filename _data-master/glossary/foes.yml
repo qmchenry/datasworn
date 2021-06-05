@@ -1,0 +1,32 @@
+Name: Foes
+Terms:
+  - Name: Ironlander
+    Description: |-
+      Ironlanders are the human inhabitants of these lands. Unless your story emphasizes adventures well outside of the settled regions, the majority of your interactions will be with fellow Ironlanders.
+
+      This section covers a few broad categories of Ironlanders. They are not representative of the variety of people and cultures in these lands. When you are forced to fight an Ironlander and need to determine their rank, you can *Ask the Oracle*, or follow these guidelines:
+
+        * A common citizen or brute is **troublesome**.
+        * A trained warrior is **dangerous**.
+        * A powerful or veteran warrior is **formidable**.
+  - Name: Firstborn
+    Description: |-
+      The firstborn lived here long before the humans landed on these shores. The humans, in their arrogance, named this peninsula the Ironlands and called themselves Ironlanders—but the firstborn gave it names of their own in a time beyond the reach of memory.
+  - Name: Animal
+    Description: |-
+      Animals are the mundane creatures which dwell in the Ironlands. Some animals are native to these lands; others were also common in the Old World.
+
+      Most wild animals are skittish and do not pose a threat to humans. Those creatures have no rank, and can be attacked or interacted with using appropriate moves. For example, *Resupply* (page 63) can represent hunting for deer or small game.
+
+      A few notable exceptions—predators, aggressive creatures, and animals trained to fight—are noted here.
+  - Name: Beast
+    Description: |-
+      Beasts are monstrous creatures of great size and power. They are natural beings—not supernatural entities—but were unknown in the Old World.
+  - Name: Horror
+    Description: |-
+      Horrors are supernatural entities. In the Old World, they were superstition and legend. Here, they are nightmares made real. The Ironlands is fertile ground for darkness and evil to take hold, spawning these undead beings of pure vengeance or mindless hate.
+
+      Many horrors can be temporarily defeated through physical attacks, but cannot be killed. They are beyond death.
+  - Name: Anomaly
+    Description: |-
+      Old magic permeates the Ironlands. These forces sometimes manifest as an anomaly, which is an otherworldly feature of the terrain or environment. Some are the embodiment of ancient spirits, and have unknowable motivations. Others are forces of nature given cruel purpose.

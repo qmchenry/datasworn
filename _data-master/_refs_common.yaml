@@ -1,0 +1,40 @@
+# references common across various oracle categories; all oracle files are concatencated to this before being converted to JSON.
+_refs:
+  Multiple rolls:
+    Roll twice: &Roll_twice
+      - Roll twice
+      - Multiple rolls:
+          Amount: 2
+          Allow duplicates: false
+    Roll twice (rep ok): &Roll_twice_Rep_ok
+      Multiple rolls:
+        Amount: 2
+        Allow duplicates: true
+
+  Oracles:
+    # Action + Theme: &Action+Theme
+    #   - ▶️Action + Theme
+    #   - Oracles:
+    #       - Category: Core
+    #         Name: Action
+    #       - Category: Core
+    #         Name: Theme
+
+  Game objects:
+    # Creature: &Creature
+    #   - ▶️Creature
+    #   - Game object:
+    #       Object type: Creature
+
+  Oracle and object suggestions:
+    # Character: &suggestNpc
+    #   Suggest:
+    #     - Game object:
+    #         Object type: Character
+    # Event: &suggestEvent # action + theme
+    #   Suggest:
+    #     - Oracles:
+    #         - Category: Core
+    #           Name: Action
+    #         - Category: Core
+    #           Name: Theme
