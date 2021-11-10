@@ -42,13 +42,13 @@ public struct Oracle: Codable, Identifiable {
 // MARK: - OracleTable
 public struct OracleTable: Codable {
     public let chance: Int
-    public let oracleTableDescription: String
+    public let description: String
     public let prompt: String?
     public let oracleTable: [OracleTable]?
 
     enum CodingKeys: String, CodingKey {
         case chance = "Chance"
-        case oracleTableDescription = "Description"
+        case description = "Description"
         case prompt = "Prompt"
         case oracleTable = "Oracle Table"
     }
@@ -56,6 +56,19 @@ public struct OracleTable: Codable {
 
 
 // MARK: -
+
+extension Oracle {
+    public var totalChance: Int {
+        oracleTable?.map { $0.chance }.sorted().last ?? 0
+    }
+
+    public func roll() -> (Int, String) {
+        guard totalChance > 0, let oracleTable = oracleTable else { return (0, "") }
+        let roll = Int.random(in: 0..<totalChance)
+        guard let answer = oracleTable.filter({ $0.chance < roll }).last else { return (roll, "shrug") }
+        return (roll, answer.description)
+    }
+}
 
 public struct Oracles {
 
